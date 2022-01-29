@@ -1,0 +1,23 @@
+/Contacts/List endpointi ile tüm listenin çekilmesi sağlanır. Filtremeler için aşağıdaki alanlar kullanılabilir. (GET)
+"order" değişkeni "asc" ya da "desc" değerlerini alır.
+{
+    "name":"",
+    "surname":"",
+    "phone":"",
+    "order":""
+}
+
+/Contacts/Store endpointi ile db ye yeni kayıt eklenir. (POST)
+{
+    "name":"",
+    "surname":"",
+    "phone":"",
+}
+
+/Contacts/Update/{id} endpointi ile kayıt güncelleme işlemi yapılır. (POST)
+{
+    "name":"",
+    "surname":"",
+    "phone":"",
+}
+/Contacts/Delete/{id} endpointi ile kayıt silinir. (GET)
